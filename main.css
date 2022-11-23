@@ -1,0 +1,279 @@
+body { 
+  background-color: rgb(39, 41, 52)
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 19.5%;
+  background-color: rgb(31, 33, 41);
+}
+  
+.logo {
+  margin-right: auto;
+}
+.search-box {
+  background: rgb(39, 41, 52);;
+  border-radius: 40px;
+  padding: 5px;
+}
+.search-btn {
+  color: #00ddff;
+  float: right;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: rgb(31, 33, 41);
+  border: none;
+}
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 35px;
+}
+.nom_profil {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 5%;
+  font-size: 35px;
+}
+.infos {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; 
+  font-size: 20px;
+    
+}
+.err {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 5%;
+  font-size: 30px;
+}
+.imagescartes {
+  width: 354.6px;
+  height: 506.25px;
+  list-style-type: none;
+  grid-template-columns: 5fr 1fr;
+  text-align: center;
+  padding: 15px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.titre_stats {
+  color: white;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 4.5%;
+}
+.stats {
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0.75%;
+}
+.dropdown {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.dropdown button {
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+  
+.dropdown button:hover {
+  color: #00ddff;
+}
+.nav__links a,
+.cta,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+.nav__links li {
+  padding: 0px 20px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: #00ddff;
+}
+.menu {
+  display: none;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(31, 33, 41);
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+.overlay--active {
+  width: 100%;
+}
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+.overlay a:hover,
+.overlay a:focus {
+  color: #0088a9;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+  cursor: pointer;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+.banner {
+  display: flex;
+  margin-top: 80%;
+}
+.left-colonne, .right-colonne {
+  flex-basis: 50%;
+  margin: 5%;
+}
+.left-colonne {
+  position: absolute;
+  left: 5%;
+  padding: 0px 10%;
+  width: 40%;
+}
+.right-colonne {
+  position: absolute;
+  right: 15%;
+}
+.right-colonne img {
+  width: 100%;
+}
+.left-colonne h1 {
+  padding: 15% 0px 0px 0px;
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.left-colonne h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.left-colonne p {
+  padding: 15px 0px 0px 0px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+input {
+  font-size: 1rem;
+}
+.user-cards {
+  display: grid;
+  background: rgb(39, 41, 52);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: .25rem;
+  margin-top: 1rem;
+}
+.card {
+  border: 1px solid #00ddff;
+  padding: .5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card > .header_card {
+  margin-bottom: .25rem;
+}
+.card > .body_card {
+  font-size: .8rem;
+}
+.hide {
+  display: none;
+}
+.tout_profils {
+  position: absolute;
+  left: 47%;
+  top: 975px;
+}
+.search_joueurs {
+  background: rgb(31, 33, 41);
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  padding: 0;
+  color: white;
+  font-size: 16px;
+  line-height: 35px;
+  padding: 5px;
+}
+.header_card {
+  color: #88efff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 17px;
+}
+.body_card {
+  color: #d5f9ff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.page_carte {
+  width: 354.6px;
+  height: 506.25px;
+  list-style-type: none;
+  grid-template-columns: 5fr 1fr;
+  text-align: center;
+  padding: 12px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titre_carte {
+  padding: 4%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+}

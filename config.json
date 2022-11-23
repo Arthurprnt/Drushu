@@ -1,0 +1,21 @@
+{
+    "token":"discord_token",
+    "phpmyadmin_host": "phpmyadmin_host",
+    "phpmyadmin_user": "phpmyadmin_user",
+    "phpmyadmin_secret": "phpmyadmin_secret",
+    "phpmyadmin_db": "phpmyadmin_db", 
+    "ip":"website_url",
+    "emojis": {
+        "etoiles": {
+            "1": "<:un_etoile:959499575750705172>",
+            "2": "<:deux_etoiles:959495328812371978> <:deux_etoiles:959495328812371978>",
+            "3": "<:trois_etoiles:959495336391495760> <:trois_etoiles:959495336391495760> <:trois_etoiles:959495336391495760>",
+            "4": "<:quatre_etoiles:959495343316295701> <:quatre_etoiles:959495343316295701> <:quatre_etoiles:959495343316295701> <:quatre_etoiles:959495343316295701>",
+            "5": "<:cinq_etoiles:959495349892964403> <:cinq_etoiles:959495349892964403> <:cinq_etoiles:959495349892964403> <:cinq_etoiles:959495349892964403> <:cinq_etoiles:959495349892964403>"
+        },
+        "piece": "<:piece:960149887268323338>",
+        "poudre": "<:poudre:959499336230768660>",
+        "poudre_rare": "<:poudre_gold:960148836955852860>",
+        "xp": "<:xp:960537785180225596>"
+    }
+}

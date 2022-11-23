@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>RAaCOS</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" href="img/logo.ico">
+        <script src="script_loop.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <a class="logo" href="/"><img src="img/logo.svg" width="150" height="100" alt="RAaCOS"></a>
+            <nav>
+                <ul class="nav__links">
+                    <nav>
+                        <div class="dropdown">
+                            <li><a href="https://top.gg" target="_BLANK">Voter</a></li>
+                            <li><a href="catalogue.php">Catalogue</a></li>
+                            <li><a href="stats.php">Stats</a></li>
+                            <li><a href="https://discord.gg/VqWkRDaHJP" target="_BLANK">Discord</a></li>
+                            <form action="profil.php" method="get" id="search-box" class="search-box">
+                                <input placeholder="Profil à rechercher" type="text" name="id" id="searchBar" class="search-txt" required  />
+                                <input type="submit" value=">" id="search-btn" class="search-btn" />
+                            </form>
+                        </div>
+                    </nav>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="left-colonne">
+                <h1>RAaCOS</h1>
+                <h2>Le jeu de carte discord.</h2>
+                <p>
+                    Il est tout ce qu'il faut pour votre serveur.
+                    Grâce à ces nombreuses fonctionnalités, vos membres ne pourront pas s'empêcher de commencer une partie.
+                </p>
+            </div>
+            <div class="right-colonne">
+                <img src="img/logo_raacos.svg" alt="logo_raacos">
+            </div>
+            <div class="tout_profils">
+                <div class="search-wrapper">
+                    <input class="search_joueurs" type="search" placeholder="Liste des joueurs" id="search" data-search>
+                </div>
+                <div class="user-cards" data-user-cards-container>
+                    <template data-user-template>
+                            <div class="card">
+                                    <div><a class="header_card" data-header></a></div>
+                                    <div><a class="body_card" data-body></a></div>
+                            </div>
+                    </template>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script>console.log("twitch.tv/draquodrass")</script>
+</html>
